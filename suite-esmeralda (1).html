@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html lang="pt-br">
+
+<head>
+
+    <title>Suíte Esmeralda</title>
+
+    <link rel="icon" href="https://cdn.corenexis.com/f/zGxi9YAHCNZ.png">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 500px;
+            z-index: 2;
+        }
+
+        .menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 3;
+        }
+
+        .menu button {
+            font-size: 50px;
+            background: none;
+            border: solid;
+            color: white;
+            cursor: pointer;
+        }
+
+        .opções {
+            display: none;
+            background: white;
+            padding: 15px;
+        }
+
+        .opções.abrir {
+            display: block;
+        }
+
+        .cabecalho {
+            background: #3b2422;
+            color: white;
+            text-align: center;
+            padding: 100px 20px 50px;
+        }
+
+        .fotos {
+            display: flex;
+            gap: 20px;
+            padding: 40px;
+        }
+
+        .fotos img {
+            width: 33%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .conteudo {
+            padding: 30px 50px;
+            text-align: center;
+        }
+
+        .conteudo h2 {
+            color: #087f46;
+        }
+
+        .especificacoes {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            width: 200px;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        .preco {
+            background: #3b2422;
+            color: white;
+            padding: 30px;
+            margin: 40px auto;
+            max-width: 400px;
+        }
+
+        .valor {
+            color: #39c879;
+            font-size: 40px;
+        }
+
+        .botao {
+            background: #087f46;
+            color: white;
+            padding: 12px;
+            text-decoration: none;
+        }
+
+        #carouselExampleFade .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+    <a href="Home (1).html">
+        <img class="logo"
+             src="https://cdn.corenexis.com/f/EkL79QDKRZV.png">
+    </a>
+
+    <div class="menu">
+
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand btn btn-outline-success" href="Proj_login (1).html">Login</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Home (1).html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre.html">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="">Gestões</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    </div>
+
+    <div class="cabecalho">
+
+        <h1>SUÍTE ESMERALDA</h1>
+
+        <p>Conforto e elegância no coração de Gramado.</p>
+
+    </div>
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://i.pinimg.com/originals/70/a6/f9/70a6f9a558a019445d34b6e25c78cb1d.jpg" class="d-block w-10" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/originals/1d/f1/42/1df142e3e2e62e08fece95e458269778.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://finger.ind.br/wp-content/uploads/2023/03/cozinha-de-luxo-saiba-como-inovar-e-sair-do-tradicional-2048x1365.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.pinimg.com/originals/41/62/0c/41620c75a53ad8932de52b049a56e446.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Próximo</span>
+  </button>
+</div>
+
+    <div class="conteudo">
+
+        <h2>SOBRE A SUÍTE</h2>
+
+        <p>
+            A Suíte Esmeralda oferece conforto, tranquilidade
+            e uma experiência especial durante sua estadia em Gramado.
+        </p>
+
+        <h2>ESPECIFICAÇÕES</h2>
+
+        <div class="especificacoes">
+
+            <div class="item">
+                <b>Capacidade</b><br>
+                2 pessoas
+            </div>
+
+            <div class="item">
+                <b>Cama</b><br>
+                Queen
+            </div>
+
+            <div class="item">
+                <b>Espaço</b><br>
+                32 m²
+            </div>
+
+            <div class="item">
+                <b>Internet</b><br>
+                Wi-Fi gratuito
+            </div>
+
+            <div class="item">
+                <b>Televisão</b><br>
+                Smart TV
+            </div>
+
+            <div class="item">
+                <b>Banheiro</b><br>
+                Privativo
+            </div>
+
+        </div>
+
+        <div class="preco">
+
+            <h2>DIÁRIA</h2>
+
+            <div class="valor">R$ 320</div>
+
+            <p>por noite para até 2 pessoas</p>
+
+            <a href="pagamento.html" class="botao btn-hover btn btn-outline-info">Reservar suíte</a>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        function abrirMenu() {
+            document.getElementById("opcoes").classList.toggle("abrir");
+        }
+
+    </script>
+
+</body>
+
+</html>
